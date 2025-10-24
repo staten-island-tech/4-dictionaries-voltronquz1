@@ -9,10 +9,10 @@
 
 
 count=0
-quarter=input()
-first=input()
-second=input()
-third=input()
+quarter=int(input())
+first=int(input())
+second=int(input())
+third=int(input())
 while quarter>0:
     quarter-1
     count+=1
@@ -29,4 +29,6 @@ while quarter>0:
     count+=1
     if third==10:
         quarter+9
-    print(f"She plays{count}times before poor")
+if quarter==0:
+    print(f"Martha plays{count}times before poor")
+      
