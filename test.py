@@ -8,32 +8,7 @@
 
 
 
-<<<<<<< HEAD
-count=0
-quarter=int(input())
-first=int(input())
-second=int(input())
-third=int(input())
-while quarter>0:
-    quarter-1
-    count+=1
-    first+=1
-    if first==35:
-        quarter+30
-        first=0
-    quarter-1
-    count+=1
-    if second==100:
-        quarter+60
-        second=0
-    quarter-1
-    count+=1
-    if third==10:
-        quarter+9
-if quarter==0:
-    print(f"Martha plays{count}times before poor")
-      
-=======
+
 quarters = int(input("Amount of quarters she has. | Input Total Quarters:  "))    # This the amount of quarters she has or the amount you would like her to have.
 first = int(input("First Slot Machine | Input amount of time this Slot Machine was played already:  "))    #This is how many times the first slot machine has already been played.
 second = int(input("Second Slot Machine | Input amount of time this Slot Machine was played already:  "))    #JUST READ THE DAM "----" I AIN'T TYPING ALL THIS OUT:c
@@ -60,9 +35,12 @@ while quarters > 0:     # while loop saying to continue if the amount of quarter
     third += 1    # adds 1 to the counter of the third slot machine so it knows when to payout and how many times it's been played.
     quarters -= 1    # subtracts a quarter per play.
     count += 1    # adds 1 to the amount of times, she has played. NOT THE AMOUNT THAT THE SLOT MACHINE WAS PLAYED.
+    print(quarters)
     if third == 10:    # the third slots machine pays out at 10 plays.
         quarters += 9    # if the machine does payout, it would give her 9 more quarters.
         third = 0    # set the amount of time it's been played to zero so it knows when to payout next.
 
+
+
 print(f"Martha plays {count} times before going broke.")
->>>>>>> cb51e1beb74ff8cc42938d751fdd466206a5f12c
+
