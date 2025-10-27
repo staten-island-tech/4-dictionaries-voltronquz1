@@ -1,10 +1,9 @@
 
-# item= {
-#     "name":"Nvidia GeForce 5070 ",
-#     "price":549.99,
-#     "description":"12GB GDDR7 192-bit Memory"
-
-# }
+store= {
+    "name":"Nvidia GeForce 5070 ",
+    "price":549.99,
+    "description":"12GB GDDR7 192-bit Memory"
+}
 
 
 x = {
