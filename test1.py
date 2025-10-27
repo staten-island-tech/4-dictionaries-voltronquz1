@@ -9,14 +9,16 @@ while quarters >= 0:
     first += 1     
     quarters -= 1    
     count += 1    
-    if first == 35 and quarters > 0:      
+    if first == 35:      
         quarters += 30    
-        first = 0      
-
+        first = 0   
+       
+    if quarters==0:
+        break
     second += 1    
     quarters -= 1   
     count += 1   
-    if second == 100 and quarters > 0:    
+    if second == 100:    
         quarters += 60    
         second = 0   
     if quarters==0:
@@ -24,8 +26,7 @@ while quarters >= 0:
     third += 1    
     quarters -= 1  
     count += 1    
-    print(quarters)
-    if third == 10 and quarters > 0:
+    if third == 10:
         quarters += 9    
         third = 0   
 
