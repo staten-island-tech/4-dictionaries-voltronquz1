@@ -1,16 +1,28 @@
 
-store= {
-    "name":"Nvidia GeForce 5070 ",
-    "price":549.99,
-    "description":"12GB GDDR7 192-bit Memory"
+cart=[]
+cost=0
+gum={
+        "name":"gum",
+        "price":3.99,
+        "description":"chewing gum"
+        }
+ships={
+    "name":"Chips",
+    "price":"1.00",
+    "description":"salted chips"
+    }    
+item2={
+    "name":"water ",
+    "price":"1.00",
+    "description":"Get hydrated"
+    }
+coffee={
+    "name":"coffee",
+    "price":"2.50",
+    "description":"get energy and caffeined"
+    }
 
-}
+print(input("What item do you want: Gum, Chips,water"))
 
 
-x = {
-    "name": "Samsung 55\" 4K UHD TV",
-    "price": 429.99,
-    "department": "Televisions",
-    "description": "55-inch Ultra HD Smart TV with HDR and built-in streaming apps."
-}
 
