@@ -23,11 +23,15 @@ store=[
     "description":"get energy and caffeined"
 },
 ]
-for index, item in enumerate(store):
-    print(index+1, ":", item["name"])
-# storecost=input("What item do you want: gum, Chips,water (put done when done)")
 
-# while storecost != "done":
-#     if "gum":
-#         print(input("Are you sure you want gum"))
-#         cost+3.99
+item=input("What item do you want: gum, Chips,water (type done when done)")
+
+while item != "done":
+    if "gum" or "coffee" or "chips" or "water":
+        print(input(f"Are you sure you want {item}"))
+        if "Yes":
+            cost+=3.99
+            cart.append(item)
+            print(f"You have {cart} and the cost is {cost}")
+            input("What else do you want")
+    
