@@ -39,4 +39,6 @@ while True:
             print(f"You have {cart} and the cost is {cost}")
             input("What else do you want")
         if "no" or "No":
-            break 
+            break   
+
+print(f"You have these items:{cart} and the cost {cost}")
