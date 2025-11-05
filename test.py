@@ -27,8 +27,8 @@ store = [
 ]
 buying=True
 while buying:
-        print("What item do you want:1. gum, 2.Chips,3.water ")
-        item=int(input("1,2,3 "))
+        print("What item do you want:1. gum, 2.Chips,3.water 4.Instant Coffee ")
+        item=int(input("1,2,3,4 "))
         item-=1 #list reads from 0,1,2,3..etc so if 1 it gives correct input
         result=store[item]
         cart.append(result)
@@ -36,7 +36,10 @@ while buying:
         print(input("Do you want to continue?Y/N"))
         if "Y" or "y":
               buying=True
-
+              print(cart)
+              # print(result)
+              print(cost)
         elif "N" or "n":
-            break
-print(cart)
+
+            buying=False
+            print(f"Your item are {cart} and the cost is {cost}")
