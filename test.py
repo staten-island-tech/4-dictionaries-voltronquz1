@@ -33,13 +33,12 @@ while buying:
         result=store[item]
         cart.append(result)
         cost+=result["price"]
-        print(input("Do you want to continue?Y/N"))
-        if "Y" or "y":
+        Answer=(input("Do you want to continue?Y/N"))
+        if Answer=="Y" or "y":
               buying=True
-              print(cart)
+              # print(cart)
               # print(result)
-              print(cost)
-        elif "N" or "n":
-
+              # print(cost)
+        if Answer=="N" or "n":
             buying=False
             print(f"Your item are {cart} and the cost is {cost}")
