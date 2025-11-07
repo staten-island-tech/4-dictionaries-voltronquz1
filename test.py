@@ -36,6 +36,7 @@ while buying:
         Answer=(input("Do you want to continue?Y/N"))
         if Answer=="Y" or "y":
               buying=True
+              input("1,2,3,4")
               # print(cart)
               # print(result)
               # print(cost)
